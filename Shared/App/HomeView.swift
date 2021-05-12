@@ -37,7 +37,7 @@ struct HomeView: View {
                     }
                     else if self.showMenuIndex == 3 {
                         
-                        
+                        Text("Secreto")
                         
                     }
                 }

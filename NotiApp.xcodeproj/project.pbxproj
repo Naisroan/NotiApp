@@ -13,14 +13,26 @@
 		D5578D3B2601ADF80016ECF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5578D262601ADF60016ECF1 /* ContentView.swift */; };
 		D5578D3C2601ADF80016ECF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5578D272601ADF80016ECF1 /* Assets.xcassets */; };
 		D5578D3D2601ADF80016ECF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5578D272601ADF80016ECF1 /* Assets.xcassets */; };
+		D58B902E264C62B000C4DC39 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B902D264C62B000C4DC39 /* Constants.swift */; };
+		D58B902F264C62B000C4DC39 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B902D264C62B000C4DC39 /* Constants.swift */; };
+		D58B903A264C639300C4DC39 /* SecretoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B9039264C639300C4DC39 /* SecretoView.swift */; };
+		D58B903B264C639300C4DC39 /* SecretoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B9039264C639300C4DC39 /* SecretoView.swift */; };
+		D58B9040264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D58B903E264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld */; };
+		D58B9041264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D58B903E264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld */; };
+		D58B9050264CA29800C4DC39 /* PersistentCloudKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B904F264CA29800C4DC39 /* PersistentCloudKitContainer.swift */; };
+		D58B9051264CA29800C4DC39 /* PersistentCloudKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B904F264CA29800C4DC39 /* PersistentCloudKitContainer.swift */; };
+		D5A2CF28264CE12E00F77B92 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF27264CE12E00F77B92 /* Nota.swift */; };
+		D5A2CF29264CE12E00F77B92 /* Nota.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF27264CE12E00F77B92 /* Nota.swift */; };
+		D5A2CF2D264CE53600F77B92 /* NotaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF2C264CE53600F77B92 /* NotaDetailView.swift */; };
+		D5A2CF2E264CE53600F77B92 /* NotaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF2C264CE53600F77B92 /* NotaDetailView.swift */; };
+		D5A2CF32264CE67600F77B92 /* NotaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF31264CE67600F77B92 /* NotaItemView.swift */; };
+		D5A2CF33264CE67600F77B92 /* NotaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A2CF31264CE67600F77B92 /* NotaItemView.swift */; };
 		D5B8C54E264B620B004F8B39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8C54D264B620B004F8B39 /* HomeView.swift */; };
 		D5B8C54F264B620B004F8B39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8C54D264B620B004F8B39 /* HomeView.swift */; };
 		D5EC2E95264A2FAB006E0CE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC2E94264A2FAB006E0CE2 /* LoginView.swift */; };
 		D5EC2E96264A2FAB006E0CE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC2E94264A2FAB006E0CE2 /* LoginView.swift */; };
-		D5F02457264C46710099700C /* DataByCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F02456264C46710099700C /* DataByCategoryView.swift */; };
-		D5F02458264C46710099700C /* DataByCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F02456264C46710099700C /* DataByCategoryView.swift */; };
-		D5F0245F264C48A70099700C /* NotaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0245E264C48A70099700C /* NotaModel.swift */; };
-		D5F02460264C48A70099700C /* NotaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F0245E264C48A70099700C /* NotaModel.swift */; };
+		D5F02457264C46710099700C /* NotaByCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F02456264C46710099700C /* NotaByCategoryView.swift */; };
+		D5F02458264C46710099700C /* NotaByCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F02456264C46710099700C /* NotaByCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +44,16 @@
 		D5578D342601ADF80016ECF1 /* NotiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5578D362601ADF80016ECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5578D372601ADF80016ECF1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D58B902D264C62B000C4DC39 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D58B9039264C639300C4DC39 /* SecretoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretoView.swift; sourceTree = "<group>"; };
+		D58B903F264C9D5600C4DC39 /* NotiAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotiAppModel.xcdatamodel; sourceTree = "<group>"; };
+		D58B904F264CA29800C4DC39 /* PersistentCloudKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentCloudKitContainer.swift; sourceTree = "<group>"; };
+		D5A2CF27264CE12E00F77B92 /* Nota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nota.swift; sourceTree = "<group>"; };
+		D5A2CF2C264CE53600F77B92 /* NotaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaDetailView.swift; sourceTree = "<group>"; };
+		D5A2CF31264CE67600F77B92 /* NotaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaItemView.swift; sourceTree = "<group>"; };
 		D5B8C54D264B620B004F8B39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D5EC2E94264A2FAB006E0CE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		D5F02456264C46710099700C /* DataByCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataByCategoryView.swift; sourceTree = "<group>"; };
-		D5F0245E264C48A70099700C /* NotaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaModel.swift; sourceTree = "<group>"; };
+		D5F02456264C46710099700C /* NotaByCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaByCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +124,9 @@
 		D5F0245D264C47FE0099700C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D5F0245E264C48A70099700C /* NotaModel.swift */,
+				D58B903E264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld */,
+				D58B904F264CA29800C4DC39 /* PersistentCloudKitContainer.swift */,
+				D5A2CF27264CE12E00F77B92 /* Nota.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,6 +138,7 @@
 				D5578D262601ADF60016ECF1 /* ContentView.swift */,
 				D5EC2E94264A2FAB006E0CE2 /* LoginView.swift */,
 				D5B8C54D264B620B004F8B39 /* HomeView.swift */,
+				D58B902D264C62B000C4DC39 /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D5F02467264C4C550099700C /* Nota */,
+				D58B9039264C639300C4DC39 /* SecretoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,7 +155,9 @@
 		D5F02467264C4C550099700C /* Nota */ = {
 			isa = PBXGroup;
 			children = (
-				D5F02456264C46710099700C /* DataByCategoryView.swift */,
+				D5F02456264C46710099700C /* NotaByCategoryView.swift */,
+				D5A2CF2C264CE53600F77B92 /* NotaDetailView.swift */,
+				D5A2CF31264CE67600F77B92 /* NotaItemView.swift */,
 			);
 			path = Nota;
 			sourceTree = "<group>";
@@ -235,12 +259,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F0245F264C48A70099700C /* NotaModel.swift in Sources */,
 				D5EC2E95264A2FAB006E0CE2 /* LoginView.swift in Sources */,
 				D5578D3A2601ADF80016ECF1 /* ContentView.swift in Sources */,
 				D5B8C54E264B620B004F8B39 /* HomeView.swift in Sources */,
-				D5F02457264C46710099700C /* DataByCategoryView.swift in Sources */,
+				D5A2CF2D264CE53600F77B92 /* NotaDetailView.swift in Sources */,
+				D58B903A264C639300C4DC39 /* SecretoView.swift in Sources */,
+				D5A2CF32264CE67600F77B92 /* NotaItemView.swift in Sources */,
+				D58B902E264C62B000C4DC39 /* Constants.swift in Sources */,
+				D5A2CF28264CE12E00F77B92 /* Nota.swift in Sources */,
+				D58B9050264CA29800C4DC39 /* PersistentCloudKitContainer.swift in Sources */,
+				D5F02457264C46710099700C /* NotaByCategoryView.swift in Sources */,
 				D5578D382601ADF80016ECF1 /* NotiAppApp.swift in Sources */,
+				D58B9040264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,12 +278,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F02460264C48A70099700C /* NotaModel.swift in Sources */,
 				D5EC2E96264A2FAB006E0CE2 /* LoginView.swift in Sources */,
 				D5578D3B2601ADF80016ECF1 /* ContentView.swift in Sources */,
 				D5B8C54F264B620B004F8B39 /* HomeView.swift in Sources */,
-				D5F02458264C46710099700C /* DataByCategoryView.swift in Sources */,
+				D5A2CF2E264CE53600F77B92 /* NotaDetailView.swift in Sources */,
+				D58B903B264C639300C4DC39 /* SecretoView.swift in Sources */,
+				D5A2CF33264CE67600F77B92 /* NotaItemView.swift in Sources */,
+				D58B902F264C62B000C4DC39 /* Constants.swift in Sources */,
+				D5A2CF29264CE12E00F77B92 /* Nota.swift in Sources */,
+				D58B9051264CA29800C4DC39 /* PersistentCloudKitContainer.swift in Sources */,
+				D5F02458264C46710099700C /* NotaByCategoryView.swift in Sources */,
 				D5578D392601ADF80016ECF1 /* NotiAppApp.swift in Sources */,
+				D58B9041264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +525,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D58B903E264C9D5600C4DC39 /* NotiAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D58B903F264C9D5600C4DC39 /* NotiAppModel.xcdatamodel */,
+			);
+			currentVersion = D58B903F264C9D5600C4DC39 /* NotiAppModel.xcdatamodel */;
+			path = NotiAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D5578D202601ADF60016ECF1 /* Project object */;
 }

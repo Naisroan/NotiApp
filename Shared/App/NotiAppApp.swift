@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct NotiAppApp: App {
+    
+    let cntx = PersistentCloudKitContainer.persistentContainer.viewContext
+    
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            HomeView().environment(\.managedObjectContext, cntx)
         }
     }
+    
 }

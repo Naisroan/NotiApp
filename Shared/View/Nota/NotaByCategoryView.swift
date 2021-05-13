@@ -9,6 +9,8 @@ import SwiftUI
 
 struct NotaByCategoryView: View {
     
+    @Environment(\.managedObjectContext) var cntx
+    
     @FetchRequest(entity: Nota.entity(), sortDescriptors: [NSSortDescriptor(keyPath:\ Nota.titulo, ascending: true)]) var list : FetchedResults<Nota>
     
     @Binding var id_categoria : Int
@@ -52,6 +54,20 @@ struct NotaByCategoryView: View {
                                     })
                                 }
                             }
+                            .onDelete(perform: { indexSet in
+                                
+                                let nodo = self.list[indexSet.first!]
+                                self.cntx.delete(nodo)
+                                
+                                do {
+                                    
+                                    try self.cntx.save()
+                                    
+                                } catch let error as NSError {
+                                    print(error.localizedDescription)
+                                }
+                            })
+                            
                         } else {
                             Text("No han sido creado notas por esta categoria")
                                 .foregroundColor(.blue)
